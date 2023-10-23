@@ -225,6 +225,7 @@ html {
 }
 .project-section{
     background-color: white;
+    height: 700px;
 }
 
 .project .list-project{
@@ -260,6 +261,9 @@ html {
     margin-right: -16px;
     
     
+}
+.the-last{
+    background-color: #000;
 }
 
 
