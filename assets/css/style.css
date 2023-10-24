@@ -264,6 +264,42 @@ html {
 }
 .the-last{
     background-color: #000;
+    height: 1000px;
+}
+
+.education-list {
+    margin-top: 32px;
+    
+
+}
+.avt-edu {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.edu-img{
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid white;
+    
+}
+.about-edu {
+    background-color: #ccc; 
+    display: inline-block;
+    
+    text-align: center;
+
+}
+.name-edu {
+    color: black;
+    line-height: 32px;
+    font-size: 20px;
+    
+    
+
+}
+.review-edu {
+
 }
 
 
