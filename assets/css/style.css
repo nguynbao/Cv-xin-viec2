@@ -209,17 +209,50 @@ html {
 .contact-section{
     background-color: #000;
     height: 700px;
+    padding: 64px 0;
 }
 
 .contact-section .information{
     background-color: black;
 }
 
+
 .information .list-infor{
     color: #ccc;
     text-align: center;
     font-size: 19px;
-    line-height: 60px;
+    line-height: 60px;  
+    
+}
+.list-infor li{
+    position: relative;
+    
+}
+.list-infor li:hover .sub-list-infor{
+    display: block;
+}
+.list-infor li:hover{
+    background-color: #ccc;
+    color: #000;
+    display: inline-block;
+    padding: 0 32px;
+}
+
+.list-infor .sub-list-infor{
+    /* display: none; */
+    min-width: 150px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    list-style-type: none ;
+    width: 120px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+   
+    
+    
+    
+}
+.list-infor .sub-list-infor li{
+    
 }
 
 .strength-section{
